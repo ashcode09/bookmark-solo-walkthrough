@@ -1,10 +1,11 @@
 source "https://rubygems.org"
 
-gem 'capybara'
-gem 'data_mapper'
-gem 'dm-postgres-adapter'
+gem 'sinatra'
 
 group :test do
   gem 'rspec-sinatra'
   gem 'rspec'
+  gem 'capybara'
+  gem 'data_mapper'
+  gem 'dm-postgres-adapter'
 end
